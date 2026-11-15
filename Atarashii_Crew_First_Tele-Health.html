@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atarashii Crew First Tele-Health | Complete Maritime Healthcare Ecosystem</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            950: '#030712',
+                            900: '#050B14',
+                            800: '#0A192F',
+                            700: '#172554',
+                        },
+                        sky: {
+                            400: '#0284C7',
+                            500: '#0284C7',
+                            600: '#0369A1',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(180deg, #F0F9FF 0%, #E0F2FE 50%, #F8FAFC 100%);
+            color: #0F172A;
+        }
+    </style>
+</head>
+<body class="text-slate-900 antialiased selection:bg-sky-500 selection:text-white">
+
+    <!-- Top Emergency Bar -->
+    <div class="bg-gradient-to-r from-navy-950 via-navy-900 to-navy-950 text-white font-bold py-2.5 px-4 text-xs md:text-sm shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-2">
+                <span class="inline-flex items-center justify-center w-2.5 h-2.5 rounded-full bg-sky-400 animate-ping"></span>
+                <span class="tracking-wide text-slate-100">24/7 CREW FIRST EMERGENCY TELE-HEALTH DESK — ALL INDIAN PORTS COVERED</span>
+            </div>
+            <div class="flex items-center gap-4 text-xs md:text-sm font-extrabold text-white">
+                <a href="tel:+917021016352" class="hover:underline flex items-center gap-1.5 bg-navy-800 px-3 py-1 rounded-full shadow-sm text-sky-400"><i class="fa-solid fa-phone-volume text-sky-400"></i> +91 70210 16352</a>
+                <a href="tel:+918830479388" class="hover:underline flex items-center gap-1.5 bg-navy-800 px-3 py-1 rounded-full shadow-sm text-sky-400"><i class="fa-solid fa-phone-volume text-sky-400"></i> +91 88304 79388</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="bg-white/95 backdrop-blur-md border-b border-slate-200 sticky top-[41px] sm:top-[37px] z-40 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-navy-900 to-navy-950 flex items-center justify-center shadow-lg">
+                    <i class="fa-solid fa-heart-pulse text-sky-400 text-xl font-black"></i>
+                </div>
+                <div>
+                    <span class="text-lg sm:text-xl font-extrabold tracking-tight text-navy-950 block">ATARASHII</span>
+                    <span class="text-[10px] tracking-widest text-sky-600 font-semibold uppercase block">Crew First Tele-Health</span>
+                </div>
+            </div>
+            
+            <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-slate-600">
+                <a href="#ecosystem" class="hover:text-navy-950 transition-colors">Ecosystem</a>
+                <a href="#pillars" class="hover:text-navy-950 transition-colors">Core Pillars</a>
+                <a href="#app-showcase" class="hover:text-navy-950 transition-colors">Smart App</a>
+                <a href="#comparison" class="hover:text-navy-950 transition-colors">Next-Gen vs Old</a>
+                <a href="#leadership" class="hover:text-navy-950 transition-colors">Leadership</a>
+                <a href="#contact" class="hover:text-navy-950 transition-colors">Port Coverage</a>
+            </nav>
+
+            <div class="flex items-center gap-3">
+                <button onclick="openLoginModal()" class="hidden sm:inline-flex items-center justify-center px-4 py-2.5 rounded-xl border border-navy-950 text-navy-950 hover:bg-navy-950 hover:text-white font-semibold text-sm transition-all shadow-sm">
+                    <i class="fa-solid fa-lock mr-2 text-sky-600"></i> Client Login
+                </button>
+                <a href="tel:+917021016352" class="inline-flex items-center gap-2 px-4.5 py-2.5 rounded-xl bg-navy-950 text-white font-bold text-sm hover:bg-navy-900 transition-all shadow-lg">
+                    <i class="fa-solid fa-headset text-sky-400"></i> Immediate Dispatch
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="ecosystem" class="relative overflow-hidden py-20 lg:py-32 border-b border-sky-200/60 bg-gradient-to-b from-sky-100/80 via-sky-50/50 to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sky-50 border border-sky-200 text-sky-700 text-xs font-semibold uppercase tracking-wider shadow-sm">
+                        <i class="fa-solid fa-shield-halved text-sky-600"></i> The First Complete, Integrated Healthcare Ecosystem
+                    </div>
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-navy-950 leading-tight">
+                        Designed for the <span class="text-transparent bg-clip-text bg-gradient-to-r from-navy-950 via-navy-800 to-sky-700">Seafaring Journey</span>
+                    </h1>
+                    <p class="text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+                        One platform. One partner. One complete medical journey. From vessel teleconsultation and smart software intelligence to port disembarkation and seamless repatriation across all Indian ports.
+                    </p>
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+                        <a href="#contact" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-navy-950 text-white font-bold text-base hover:bg-navy-900 transition-all shadow-xl text-center flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-file-contract text-sky-400"></i> Request Fleet Proposal
+                        </a>
+                        <a href="#pillars" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-slate-100 border border-slate-300 text-navy-950 font-semibold text-base hover:bg-slate-200 transition-all text-center flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-compass text-sky-600"></i> Explore 5 Core Pillars
+                        </a>
+                    </div>
+                    
+                    <div class="grid grid-cols-3 gap-4 pt-8 border-t border-slate-200 mt-8">
+                        <div>
+                            <div class="text-2xl lg:text-3xl font-extrabold text-navy-950">100%</div>
+                            <div class="text-xs text-slate-500 font-medium">All Indian Port Coverage</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl lg:text-3xl font-extrabold text-navy-950">15+</div>
+                            <div class="text-xs text-slate-500 font-medium">Multi-Specialty Doctors</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl lg:text-3xl font-extrabold text-navy-950">24/7</div>
+                            <div class="text-xs text-slate-500 font-medium">Continuous Care Journey</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-5">
+                    <div class="bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden shadow-2xl relative text-white">
+                        <div class="relative h-48 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?q=80&w=1000&auto=format&fit=crop" alt="Cargo vessel at sea" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+                            <div class="absolute top-3 right-3 bg-sky-600 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-lg">
+                                Live Fleet Connected
+                            </div>
+                        </div>
+                        
+                        <div class="p-6 pt-2">
+                            <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                                <i class="fa-solid fa-network-wired text-sky-400"></i> Integrated Medical Pathway
+                            </h3>
+                            
+                            <div class="space-y-3">
+                                <div class="p-3 rounded-xl bg-slate-800 border border-slate-700 flex items-center justify-between">
+                                    <div class="flex items-center gap-3">
+                                        <div class="w-8 h-8 rounded-lg bg-sky-500/20 text-sky-400 flex items-center justify-center font-bold">
+                                            <i class="fa-solid fa-video text-xs"></i>
+                                        </div>
+                                        <div>
+                                            <div class="text-xs font-semibold text-white">01. 24/7 Telemedicine</div>
+                                            <div class="text-[10px] text-sky-400">15+ Specialist Doctors Online</div>
+                                        </div>
+                                    </div>
+                                    <span class="relative flex h-2 w-2">
+                                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+                                        <span class="relative inline-flex rounded-full h-2 w-2 bg-sky-500"></span>
+                                    </span>
+                                </div>
+
+                                <div class="p-3 rounded-xl bg-slate-800 border border-slate-700 flex items-center justify-between">
+                                    <div class="flex items-center gap-3">
+                                        <div class="w-8 h-8 rounded-lg bg-sky-500/20 text-sky-400 flex items-center justify-center font-bold">
+                                            <i class="fa-solid fa-laptop-medical text-xs"></i>
+                                        </div>
+                                        <div>
+                                            <div class="text-xs font-semibold text-white">02. Smart Software Intelligence</div>
+                                            <div class="text-[10px] text-slate-400">Crew Medical Records & PEME</div>
+                                        </div>
+                                    </div>
+                                    <i class="fa-solid fa-circle-check text-sky-400 text-sm"></i>
+                                </div>
+
+                                <div class="p-3 rounded-xl bg-slate-800 border border-slate-700 flex items-center justify-between">
+                                    <div class="flex items-center gap-3">
+                                        <div class="w-8 h-8 rounded-lg bg-sky-500/20 text-sky-400 flex items-center justify-center font-bold">
+                                            <i class="fa-solid fa-hospital-user text-xs"></i>
+                                        </div>
+                                        <div>
+                                            <div class="text-xs font-semibold text-white">05. Port Care & Repatriation</div>
+                                            <div class="text-[10px] text-slate-400">Pan-India Hospitalization</div>
+                                        </div>
+                                    </div>
+                                    <i class="fa-solid fa-circle-check text-sky-400 text-sm"></i>
+                                </div>
+                            </div>
+
+                            <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
+                                <span>24/7 Command Desk:</span>
+                                <span class="text-sky-400 font-mono font-bold">+91 7021016352</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Five Core Business Pillars -->
+    <section id="pillars" class="py-24 bg-gradient-to-b from-white via-sky-50/40 to-sky-100/30 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <span class="text-navy-950 font-bold uppercase tracking-widest text-xs px-3.5 py-1.5 bg-white rounded-full border border-sky-200 shadow-sm">
+                    The Five Core Business Pillars
+                </span>
+                <h2 class="text-3xl lg:text-4xl font-extrabold text-navy-950 tracking-tight">
+                    A Complete Ecosystem, Not Just Disconnected Services
+                </h2>
+                <p class="text-slate-600 text-base">
+                    From early symptom identification to structured recovery, Atarashii unifies every stakeholder into one seamless workflow.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white/90 backdrop-blur-sm border border-sky-200/80 hover:border-navy-950 rounded-3xl p-8 transition-all duration-300 group shadow-lg relative overflow-hidden">
+                    <div class="absolute top-4 right-4 text-4xl font-black text-sky-100 group-hover:text-navy-950/10 transition-colors">01</div>
+                    <div class="w-14 h-14 rounded-2xl bg-navy-950 text-white flex items-center justify-center text-2xl font-bold mb-6 shadow-md">
+                        <i class="fa-solid fa-headset text-sky-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy-950 mb-3">24/7 Telemedicine</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Doctors and specialists available when needed. Access to a dedicated network of 15+ multi-specialty doctors providing condition-based guidance and real-time clinical decision support.
+                    </p>
+                    <ul class="space-y-2 text-xs text-slate-700">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-sky-600"></i> Instant 24/7 video/audio triage</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-sky-600"></i> Condition-based specialist referrals</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white border border-slate-200 hover:border-navy-950 rounded-3xl p-8 transition-all duration-300 group shadow-lg relative overflow-hidden">
+                    <div class="absolute top-4 right-4 text-4xl font-black text-slate-200 group-hover:text-navy-950/10 transition-colors">02</div>
+                    <div class="w-14 h-14 rounded-2xl bg-navy-950 text-white flex items-center justify-center text-2xl font-bold mb-6 shadow-md">
+                        <i class="fa-solid fa-laptop-code text-sky-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy-950 mb-3">Smart Software Platform</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Critical medical and vessel data in one connected system. Centralized crew medical intelligence, PEME history, chronic condition flags, and active case tracking dashboards.
+                    </p>
+                    <ul class="space-y-2 text-xs text-slate-700">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-sky-600"></i> Pre-stored crew medical profiles</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-sky-600"></i> Real-time DPA voyage insights</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white border border-slate-200 hover:border-navy-950 rounded-3xl p-8 transition-all duration-300 group shadow-lg relative overflow-hidden">
+                    <div class="absolute top-4 right-4 text-4xl font-black text-slate-200 group-hover:text-navy-950/10 transition-colors">03</div>
+                    <div class="w-14 h-14 rounded-2xl bg-navy-950 text-white flex items-center justify-center text-2xl font-bold mb-6 shadow-md">
+                        <i class="fa-solid fa-kit-medical text-sky-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy-950 mb-3">Next-Generation Support & MedKit</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Advanced diagnostics equipment and enhanced pharmacy planning. Portable diagnostic capability including ECG, blood pressure, glucometer, digital stethoscope, and pulse oximeter.
+                    </p>
+                    <ul class="space-y-2 text-xs text-slate-700">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-sky-600"></i> Portable digital diagnostic tools</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-sky-600"></i> Enhanced shipboard pharmacy kits</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white border border-slate-200 hover:border-navy-950 rounded-3xl p-8 transition-all duration-300 group shadow-lg relative overflow-hidden">
+                    <div class="absolute top-4 right-4 text-4xl font-black text-slate-200 group-hover:text-navy-950/10 transition-colors">04</div>
+                    <div class="w-14 h-14 rounded-2xl bg-navy-950 text-white flex items-center justify-center text-2xl font-bold mb-6 shadow-md">
+                        <i class="fa-solid fa-brain text-sky-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy-950 mb-3">Maritime Mental Wellness</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Dedicated counselors and psychiatric support with a specialized maritime focus. Confidential consultations addressing isolation, fatigue, stress, and unique seafarer challenges.
+                    </p>
+                    <ul class="space-y-2 text-xs text-slate-700">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-sky-600"></i> 100% confidential counselling</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-sky-600"></i> Seafarer psychology experts</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white border border-slate-200 hover:border-navy-950 rounded-3xl p-8 transition-all duration-300 group shadow-lg relative overflow-hidden md:col-span-2 lg:col-span-2">
+                    <div class="absolute top-4 right-4 text-4xl font-black text-slate-200 group-hover:text-navy-950/10 transition-colors">05</div>
+                    <div class="w-14 h-14 rounded-2xl bg-navy-950 text-white flex items-center justify-center text-2xl font-bold mb-6 shadow-md">
+                        <i class="fa-solid fa-plane-departure text-sky-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy-950 mb-3">Complete Shore Care & Repatriation</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        From vessel to hospital to home. Comprehensive port-side coordination, hospital admission, medical transfer assistance, specialist care management, and complete repatriation planning across all Indian ports.
+                    </p>
+                    <div class="grid sm:grid-cols-2 gap-2 text-xs text-slate-700">
+                        <div class="flex items-center gap-2"><i class="fa-solid fa-check text-sky-600"></i> Port agent & hospital liaison</div>
+                        <div class="flex items-center gap-2"><i class="fa-solid fa-check text-sky-600"></i> P&I claim-ready transparent billing</div>
+                        <div class="flex items-center gap-2"><i class="fa-solid fa-check text-sky-600"></i> Medical escort & flight booking</div>
+                        <div class="flex items-center gap-2"><i class="fa-solid fa-check text-sky-600"></i> End-to-end case tracking</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Smart Maritime App Showcase -->
+    <section id="app-showcase" class="py-24 bg-navy-800/60 border-t border-b border-sky-900/40 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-6 space-y-6">
+                    <span class="text-sky-400 font-bold uppercase tracking-widest text-xs px-3.5 py-1.5 bg-sky-500/10 rounded-full border border-sky-500/20">
+                        Digital Intelligence
+                    </span>
+                    <h2 class="text-3xl lg:text-4xl font-extrabold text-white tracking-tight">
+                        The Atarashii Smart Maritime Medical Application
+                    </h2>
+                    <p class="text-slate-300 text-base leading-relaxed">
+                        When every minute matters, information should not be scattered. Our proprietary application unifies crew medical history, voyage intelligence, and active case journeys into one intuitive screen.
+                    </p>
+
+                    <div class="space-y-4 pt-2">
+                        <div class="flex items-start gap-4 p-4 rounded-2xl bg-navy-900/80 border border-sky-900/60">
+                            <div class="w-8 h-8 rounded-lg bg-sky-500 text-navy-950 font-bold flex items-center justify-center shrink-0 mt-0.5">01</div>
+                            <div>
+                                <h4 class="text-white font-bold text-sm mb-1">Crew Medical Intelligence</h4>
+                                <p class="text-slate-400 text-xs">Pre-stored crew medical records, chronic illness flags, past medical history, PEME records, and critical health alerts instantly accessible.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-4 rounded-2xl bg-navy-900/80 border border-sky-900/60">
+                            <div class="w-8 h-8 rounded-lg bg-sky-500 text-navy-950 font-bold flex items-center justify-center shrink-0 mt-0.5">02</div>
+                            <div>
+                                <h4 class="text-white font-bold text-sm mb-1">Vessel & Voyage Intelligence</h4>
+                                <p class="text-slate-400 text-xs">Pre-filled vessel details, voyage coordinates, current port positioning, and faster shore coordination context.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-4 rounded-2xl bg-navy-900/80 border border-sky-900/60">
+                            <div class="w-8 h-8 rounded-lg bg-sky-500 text-navy-950 font-bold flex items-center justify-center shrink-0 mt-0.5">03</div>
+                            <div>
+                                <h4 class="text-white font-bold text-sm mb-1">Connected Active Case Journey</h4>
+                                <p class="text-slate-400 text-xs">Step-by-step milestone tracking: Initial Teleconsultation → Documentation → Specialist Involvement → Shore Care & Repatriation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6">
+                    <div class="bg-gradient-to-br from-navy-900 to-navy-950 border-2 border-sky-500/40 rounded-3xl p-6 shadow-2xl relative">
+                        <div class="flex items-center justify-between pb-4 mb-4 border-b border-sky-900/60">
+                            <div class="flex items-center gap-2">
+                                <span class="w-3 h-3 rounded-full bg-red-500 inline-block"></span>
+                                <span class="w-3 h-3 rounded-full bg-yellow-500 inline-block"></span>
+                                <span class="w-3 h-3 rounded-full bg-green-500 inline-block"></span>
+                                <span class="text-xs text-slate-400 font-mono ml-2">ATARASHII SMART MEDICAL OS v3.2</span>
+                            </div>
+                            <span class="px-2.5 py-1 rounded-full bg-sky-500/20 text-sky-400 text-[10px] font-bold uppercase tracking-wider">ACTIVE CASE #4082</span>
+                        </div>
+
+                        <div class="grid sm:grid-cols-2 gap-4">
+                            <div class="bg-navy-800/90 border border-sky-900/50 rounded-2xl p-4 space-y-3">
+                                <div class="text-xs font-bold text-sky-400 uppercase tracking-wider">Medical Summary</div>
+                                <div class="space-y-1.5 text-xs text-slate-300">
+                                    <div class="flex justify-between py-1 border-b border-sky-900/40"><span>Condition:</span> <strong class="text-white">Acute Appendicitis Suspected</strong></div>
+                                    <div class="flex justify-between py-1 border-b border-sky-900/40"><span>Vitals:</span> <strong class="text-sky-300">BP 130/85, HR 98</strong></div>
+                                    <div class="flex justify-between py-1"><span>PEME Status:</span> <strong class="text-emerald-400">Cleared (Minor Notes)</strong></div>
+                                </div>
+                            </div>
+
+                            <div class="bg-navy-800/90 border border-sky-900/50 rounded-2xl p-4 space-y-3">
+                                <div class="text-xs font-bold text-sky-400 uppercase tracking-wider">Vessel & Voyage Info</div>
+                                <div class="space-y-1.5 text-xs text-slate-300">
+                                    <div class="flex justify-between py-1 border-b border-sky-900/40"><span>Vessel:</span> <strong class="text-white">MV Atlantic Star</strong></div>
+                                    <div class="flex justify-between py-1 border-b border-sky-900/40"><span>Position:</span> <strong class="text-sky-300">Mumbai Anchorage</strong></div>
+                                    <div class="flex justify-between py-1"><span>Next Port:</span> <strong class="text-white">JNPT Terminal</strong></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-4 bg-navy-800/90 border border-sky-900/50 rounded-2xl p-4">
+                            <div class="text-xs font-bold text-sky-400 uppercase tracking-wider mb-3">Active Case Journey</div>
+                            <div class="flex items-center justify-between relative">
+                                <div class="absolute left-0 right-0 top-1/2 h-0.5 bg-sky-900 -z-0"></div>
+                                <div class="relative z-10 flex flex-col items-center">
+                                    <div class="w-6 h-6 rounded-full bg-sky-500 text-navy-950 font-bold text-xs flex items-center justify-center">✓</div>
+                                    <span class="text-[10px] text-sky-400 mt-1 font-medium">Initial Triage</span>
+                                </div>
+                                <div class="relative z-10 flex flex-col items-center">
+                                    <div class="w-6 h-6 rounded-full bg-sky-500 text-navy-950 font-bold text-xs flex items-center justify-center">✓</div>
+                                    <span class="text-[10px] text-sky-400 mt-1 font-medium">Diagnostics</span>
+                                </div>
+                                <div class="relative z-10 flex flex-col items-center">
+                                    <div class="w-6 h-6 rounded-full bg-sky-400 text-navy-950 font-bold text-xs flex items-center justify-center animate-pulse">3</div>
+                                    <span class="text-[10px] text-white mt-1 font-medium">Specialist Care</span>
+                                </div>
+                                <div class="relative z-10 flex flex-col items-center">
+                                    <div class="w-6 h-6 rounded-full bg-slate-700 text-slate-400 font-bold text-xs flex items-center justify-center">4</div>
+                                    <span class="text-[10px] text-slate-400 mt-1 font-medium">Shore Care</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Table -->
+    <section id="comparison" class="py-24 bg-navy-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <span class="text-sky-400 font-bold uppercase tracking-widest text-xs px-3.5 py-1.5 bg-sky-500/10 rounded-full border border-sky-500/20">
+                    Why This Changes The Game
+                </span>
+                <h2 class="text-3xl lg:text-4xl font-extrabold text-white tracking-tight">
+                    The Old Model vs. Atarashii Next-Gen Model
+                </h2>
+                <p class="text-slate-400 text-base">
+                    Eliminating fragmented vendor handovers and isolated consultations for absolute operational clarity.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-gradient-to-b from-navy-800/80 to-navy-900 border border-red-900/30 rounded-3xl p-8 shadow-xl relative">
+                    <div class="absolute top-4 right-4 px-3 py-1 rounded-full bg-red-500/10 text-red-400 text-xs font-bold uppercase tracking-wider">
+                        Fragmented
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-6 flex items-center gap-3">
+                        <i class="fa-solid fa-triangle-exclamation text-red-400"></i> Traditional Maritime Medical Model
+                    </h3>
+                    
+                    <div class="space-y-4">
+                        <div class="p-4 rounded-2xl bg-navy-950/70 border border-red-950/50 flex items-start gap-3">
+                            <i class="fa-solid fa-xmark text-red-400 text-lg mt-0.5"></i>
+                            <div>
+                                <h4 class="text-white font-semibold text-sm">Separate services & multiple vendors</h4>
+                                <p class="text-slate-400 text-xs">Juggling local port agents, random shore doctors, and disconnected pharmacy suppliers.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-2xl bg-navy-950/70 border border-red-950/50 flex items-start gap-3">
+                            <i class="fa-solid fa-xmark text-red-400 text-lg mt-0.5"></i>
+                            <div>
+                                <h4 class="text-white font-semibold text-sm">Medical consultation in isolation</h4>
+                                <p class="text-slate-400 text-xs">Doctors onboard have zero continuity with ashore specialists or past health history.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-2xl bg-navy-950/70 border border-red-950/50 flex items-start gap-3">
+                            <i class="fa-solid fa-xmark text-red-400 text-lg mt-0.5"></i>
+                            <div>
+                                <h4 class="text-white font-semibold text-sm">Limited access to critical history</h4>
+                                <p class="text-slate-400 text-xs">Missing PEME archives and chronic illness records leading to delayed emergency decisions.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-2xl bg-navy-950/70 border border-red-950/50 flex items-start gap-3">
+                            <i class="fa-solid fa-xmark text-red-400 text-lg mt-0.5"></i>
+                            <div>
+                                <h4 class="text-white font-semibold text-sm">Complex handovers after escalation</h4>
+                                <p class="text-slate-400 text-xs">Chaotic administrative delays during emergency disembarkations and hospital admissions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-b from-navy-800 to-navy-900 border-2 border-sky-500/50 rounded-3xl p-8 shadow-2xl relative">
+                    <div class="absolute top-4 right-4 px-3 py-1 rounded-full bg-sky-500/20 text-sky-400 text-xs font-bold uppercase tracking-wider">
+                        Unified Ecosystem
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-6 flex items-center gap-3">
+                        <i class="fa-solid fa-circle-check text-sky-400"></i> Atarashii Crew First Model
+                    </h3>
+                    
+                    <div class="space-y-4">
+                        <div class="p-4 rounded-2xl bg-navy-950/80 border border-sky-900/60 flex items-start gap-3">
+                            <i class="fa-solid fa-check text-sky-400 text-lg mt-0.5"></i>
+                            <div>
+                                <h4 class="text-white font-semibold text-sm">One connected medical ecosystem</h4>
+                                <p class="text-slate-400 text-xs">Unified point of contact for every health touchpoint from onboard triage to hospital discharge.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-2xl bg-navy-950/80 border border-sky-900/60 flex items-start gap-3">
+                            <i class="fa-solid fa-check text-sky-400 text-lg mt-0.5"></i>
+                            <div>
+                                <h4 class="text-white font-semibold text-sm">Data + doctors + diagnostics + follow-up</h4>
+                                <p class="text-slate-400 text-xs">Complete synergy between digital vitals, expert doctors, and ongoing clinical case supervision.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-2xl bg-navy-950/80 border border-sky-900/60 flex items-start gap-3">
+                            <i class="fa-solid fa-check text-sky-400 text-lg mt-0.5"></i>
+                            <div>
+                                <h4 class="text-white font-semibold text-sm">Smart crew medical intelligence</h4>
+                                <p class="text-slate-400 text-xs">Instant access to past medical records, chronic conditions, and wellness alerts.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-2xl bg-navy-950/80 border border-sky-900/60 flex items-start gap-3">
+                            <i class="fa-solid fa-check text-sky-400 text-lg mt-0.5"></i>
+                            <div>
+                                <h4 class="text-white font-semibold text-sm">Physical + mental wellness & shore care</h4>
+                                <p class="text-slate-400 text-xs">Holistic support covering psychiatric counseling alongside acute surgical and repatriation care.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Designated Clinical Partners Section -->
+    <section id="leadership" class="py-24 bg-gradient-to-b from-white via-sky-50/40 to-sky-100/50 border-t border-b border-sky-200/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <span class="text-navy-950 font-bold uppercase tracking-widest text-xs px-3.5 py-1.5 bg-white rounded-full border border-sky-200 shadow-sm">
+                    Expert Medical Leadership
+                </span>
+                <h2 class="text-3xl lg:text-4xl font-extrabold text-navy-950 tracking-tight">
+                    Designated Clinical Partners & Founders
+                </h2>
+                <p class="text-slate-600 text-base">
+                    Led by veteran emergency and maritime medical specialists committed to uncompromised seafarer health and operational cost containment.
+                </p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Dr. Lukesh Rathod -->
+                <div class="bg-white/90 backdrop-blur-sm border border-sky-200 rounded-3xl p-6 text-center shadow-md hover:border-navy-950 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-16 h-16 mx-auto mb-5 rounded-2xl bg-navy-950 text-white flex items-center justify-center text-2xl font-bold shadow-lg">
+                            <i class="fa-solid fa-user-doctor text-sky-400"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-navy-950 mb-1">Dr. Lukesh Rathod</h3>
+                        <div class="text-xs font-semibold text-sky-600 mb-3 uppercase tracking-wider">Clinical Director & Partner</div>
+                        <p class="text-slate-600 text-xs leading-relaxed">
+                            Specialized in emergency trauma, critical care triage, and advanced medical evacuations across maritime corridors.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Dr. Rohit Mishra -->
+                <div class="bg-white/90 backdrop-blur-sm border-2 border-navy-950 rounded-3xl p-6 text-center shadow-xl relative flex flex-col justify-between">
+                    <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-navy-950 text-white font-extrabold text-[9px] uppercase tracking-widest px-3 py-1 rounded-full shadow-md">
+                        Lead Partner
+                    </div>
+                    <div>
+                        <div class="w-16 h-16 mx-auto mb-5 rounded-2xl bg-navy-950 text-white flex items-center justify-center text-2xl font-bold shadow-lg">
+                            <i class="fa-solid fa-user-doctor text-sky-400"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-navy-950 mb-1">Dr. Rohit Mishra</h3>
+                        <div class="text-xs font-semibold text-sky-600 mb-3 uppercase tracking-wider">Emergency & Maritime Lead</div>
+                        <p class="text-slate-600 text-xs leading-relaxed">
+                            Expert in shipboard medical protocol compliance, telemedicine integration, and acute surgical intervention management.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Dr. Sanket Shetty -->
+                <div class="bg-white/90 backdrop-blur-sm border border-sky-200 rounded-3xl p-6 text-center shadow-md hover:border-navy-950 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-16 h-16 mx-auto mb-5 rounded-2xl bg-navy-950 text-white flex items-center justify-center text-2xl font-bold shadow-lg">
+                            <i class="fa-solid fa-user-doctor text-sky-400"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-navy-950 mb-1">Dr. Sanket Shetty</h3>
+                        <div class="text-xs font-semibold text-sky-600 mb-3 uppercase tracking-wider">Port Case Management Head</div>
+                        <p class="text-slate-600 text-xs leading-relaxed">
+                            Specialist in port agency liaison, hospital network coordination, and rapid crew disembarkation logistics across India.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Dr. Suraj Nair -->
+                <div class="bg-white/90 backdrop-blur-sm border border-sky-200 rounded-3xl p-6 text-center shadow-md hover:border-navy-950 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-16 h-16 mx-auto mb-5 rounded-2xl bg-navy-950 text-white flex items-center justify-center text-2xl font-bold shadow-lg">
+                            <i class="fa-solid fa-user-doctor text-sky-400"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-navy-950 mb-1">Dr. Suraj Nair</h3>
+                        <div class="text-xs font-semibold text-sky-600 mb-3 uppercase tracking-wider">Telemedicine & Tech Director</div>
+                        <p class="text-slate-600 text-xs leading-relaxed">
+                            Pioneering digital health monitoring tools, diagnostic hardware integration, and secure DPA telemetry systems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Action Hub & Pan-India Port Coverage -->
+    <section id="contact" class="py-24 bg-gradient-to-b from-navy-900 via-navy-800 to-navy-900 border-t border-sky-900/40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-5 space-y-6">
+                    <span class="text-sky-400 font-bold uppercase tracking-widest text-xs px-3.5 py-1.5 bg-sky-500/10 rounded-full border border-sky-500/20">
+                        24/7 Command Center
+                    </span>
+                    <h2 class="text-3xl lg:text-4xl font-extrabold text-white tracking-tight">
+                        Connect with Atarashii Tele-Health Desk
+                    </h2>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        Handling an urgent onboard medical crisis at any Indian port or looking to integrate our complete ecosystem into your fleet? Our medical dispatch is active 24/7.
+                    </p>
+
+                    <div class="space-y-4 pt-2">
+                        <a href="tel:+917021016352" class="flex items-center gap-4 p-4.5 rounded-2xl bg-navy-900 border border-sky-900/60 hover:border-sky-500 transition-all group shadow-lg">
+                            <div class="w-12 h-12 rounded-xl bg-sky-500/10 text-sky-400 flex items-center justify-center text-xl font-bold group-hover:bg-gradient-to-r group-hover:from-sky-500 group-hover:to-blue-600 group-hover:text-white transition-all">
+                                <i class="fa-solid fa-phone-volume"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs text-slate-400 font-medium">Emergency Desk Line 1</div>
+                                <div class="text-lg font-mono font-bold text-white group-hover:text-sky-300 transition-colors">+91 70210 16352</div>
+                            </div>
+                        </a>
+
+                        <a href="tel:+918830479388" class="flex items-center gap-4 p-4.5 rounded-2xl bg-navy-900 border border-sky-900/60 hover:border-sky-500 transition-all group shadow-lg">
+                            <div class="w-12 h-12 rounded-xl bg-sky-500/10 text-sky-400 flex items-center justify-center text-xl font-bold group-hover:bg-gradient-to-r group-hover:from-sky-500 group-hover:to-blue-600 group-hover:text-white transition-all">
+                                <i class="fa-solid fa-phone-volume"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs text-slate-400 font-medium">Emergency Desk Line 2</div>
+                                <div class="text-lg font-mono font-bold text-white group-hover:text-sky-300 transition-colors">+91 88304 79388</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="pt-4 flex items-center gap-4 text-xs text-slate-400">
+                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-anchor text-sky-400"></i> All Indian Ports Covered</div>
+                        <span>•</span>
+                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-file-invoice text-sky-400"></i> P&I Ready Billing</div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7">
+                    <div class="bg-navy-800 border border-sky-500/30 rounded-3xl p-8 lg:p-10 shadow-2xl relative">
+                        <h3 class="text-xl font-bold text-white mb-2">Initiate Case or Request Fleet Service</h3>
+                        <p class="text-slate-400 text-xs mb-6">Complete the form below for immediate assistance from our medical dispatch team.</p>
+
+                        <form id="inquiryForm" onsubmit="handleFormSubmit(event)" class="space-y-4">
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-300 mb-1.5">Full Name *</label>
+                                    <input type="text" required placeholder="Capt. John Doe / DPA" class="w-full bg-navy-950 border border-sky-900/60 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-sky-500">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-300 mb-1.5">Company / Vessel Name *</label>
+                                    <input type="text" required placeholder="Shipping Management Ltd." class="w-full bg-navy-950 border border-sky-900/60 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-sky-500">
+                                </div>
+                            </div>
+
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-300 mb-1.5">Phone / WhatsApp *</label>
+                                    <input type="tel" required placeholder="+91 XXXXX XXXXX" class="w-full bg-navy-950 border border-sky-900/60 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-sky-500">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-300 mb-1.5">Service Required *</label>
+                                    <select class="w-full bg-navy-950 border border-sky-900/60 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-sky-500">
+                                        <option>Urgent Port Hospitalization / Repatriation</option>
+                                        <option>24/7 Telemedicine & Specialist Support</option>
+                                        <option>Next-Gen MedKits & Diagnostics Order</option>
+                                        <option>Fleet Annual Ecosystem Agreement</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 mb-1.5">Message / Patient Details</label>
+                                <textarea rows="3" placeholder="Provide vessel location, port name, or specific health inquiries..." class="w-full bg-navy-950 border border-sky-900/60 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-sky-500"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 text-white font-bold text-sm hover:opacity-95 transition-all shadow-lg shadow-sky-500/25 flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-paper-plane"></i> Transmit to Emergency Dispatch Desk
+                            </button>
+                        </form>
+
+                        <div id="successMessage" class="hidden mt-4 p-4 rounded-xl bg-sky-500/10 border border-sky-500/30 text-sky-300 text-center text-sm font-semibold">
+                            <i class="fa-solid fa-circle-check text-lg mb-1 block"></i>
+                            Request successfully transmitted! Our emergency medical desk is reviewing your details and will call you instantly.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy-950 border-t border-sky-900/40 py-12 text-slate-400 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6 pb-8 border-b border-sky-900/40">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 rounded-lg bg-sky-500 flex items-center justify-center text-navy-950 font-black">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                    </div>
+                    <div>
+                        <span class="text-white font-bold tracking-tight">ATARASHII CREW FIRST TELE-HEALTH</span>
+                    </div>
+                </div>
+                <div class="flex flex-wrap gap-6 text-xs font-medium text-slate-300">
+                    <a href="#ecosystem" class="hover:text-sky-400 transition-colors">Ecosystem</a>
+                    <a href="#pillars" class="hover:text-sky-400 transition-colors">Core Pillars</a>
+                    <a href="#app-showcase" class="hover:text-sky-400 transition-colors">Smart App</a>
+                    <a href="#comparison" class="hover:text-sky-400 transition-colors">Next-Gen vs Old</a>
+                    <a href="#leadership" class="hover:text-sky-400 transition-colors">Leadership</a>
+                    <button onclick="openLoginModal()" class="hover:text-sky-400 transition-colors bg-transparent border-none text-slate-300 cursor-pointer">Client Login</button>
+                </div>
+            </div>
+            
+            <div class="flex flex-col sm:flex-row justify-between items-center gap-4 pt-8 text-xs text-slate-500">
+                <div>
+                    &copy; 2026 Atarashii Crew First Tele-Health. All rights reserved. Designed for Global Ship Operators & P&I Compliance.
+                </div>
+                <div class="flex items-center gap-4">
+                    <span>Led by Dr. Lukesh Rathod, Dr. Rohit Mishra, Dr. Sanket Shetty & Dr. Suraj Nair</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal Popup -->
+    <div id="loginModal" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md hidden flex items-center justify-center p-4">
+        <div class="bg-navy-900 border border-sky-500/40 rounded-3xl p-8 max-w-md w-full shadow-2xl relative">
+            <button onclick="closeLoginModal()" class="absolute top-4 right-4 w-8 h-8 rounded-full bg-navy-800 text-slate-400 hover:text-white flex items-center justify-center">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="text-center mb-6">
+                <div class="w-12 h-12 rounded-2xl bg-sky-500/20 text-sky-400 mx-auto flex items-center justify-center text-xl font-bold mb-3">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white">Client Portal & Admin Access</h3>
+                <p class="text-xs text-slate-400 mt-1">Sign in to manage vessel cases or view telemedicine records.</p>
+            </div>
+
+            <form onsubmit="handleLoginSubmit(event)" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-semibold text-slate-300 mb-1">Company / Email ID</label>
+                    <input type="email" required placeholder="dpa@shipping.com" class="w-full bg-navy-950 border border-sky-900/60 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-sky-500">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-300 mb-1">Access Password</label>
+                    <input type="password" required placeholder="••••••••" class="w-full bg-navy-950 border border-sky-900/60 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-sky-500">
+                </div>
+                <button type="submit" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 text-white font-bold text-sm shadow-lg hover:opacity-95 transition-all">
+                    Secure Login
+                </button>
+            </form>
+            <div id="loginSuccess" class="hidden mt-4 p-3 rounded-xl bg-sky-500/10 border border-sky-500/30 text-sky-300 text-center text-xs font-semibold">
+                Authentication successful! Redirecting to secure dashboard...
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            const form = document.getElementById('inquiryForm');
+            const successMsg = document.getElementById('successMessage');
+            
+            form.reset();
+            successMsg.classList.remove('hidden');
+            
+            setTimeout(() => {
+                successMsg.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }, 100);
+        }
+
+        function openLoginModal() {
+            document.getElementById('loginModal').classList.remove('hidden');
+        }
+
+        function closeLoginModal() {
+            document.getElementById('loginModal').classList.add('hidden');
+            document.getElementById('loginSuccess').classList.add('hidden');
+        }
+
+        function handleLoginSubmit(event) {
+            event.preventDefault();
+            const successBox = document.getElementById('loginSuccess');
+            successBox.classList.remove('hidden');
+            setTimeout(() => {
+                closeLoginModal();
+            }, 1500);
+        }
+    </script>
+</body>
+</html>
